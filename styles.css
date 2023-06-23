@@ -17,6 +17,7 @@ a{
 }
 
 .navbar > .header-logo{
+    justify-content: flex-start;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -42,9 +43,37 @@ a{
 .button{
     border: none;
     border-radius: 5px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    color: white;
+    font-weight: bold;
     background-color:#3882f6;
+    padding:  5px 17px;
 }
 
+.image > img{
+    height: 200px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.images img{
+    height: 250px;
+    border : 2px solid #3882f6;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.random-info > p{
+    margin-top: 20px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+}
+.images p{
+    text-align: center;
+}
 
