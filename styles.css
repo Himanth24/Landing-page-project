@@ -77,3 +77,54 @@ a{
     text-align: center;
 }
 
+.footer-1{
+    background-color: #e5e7eb;
+    padding: 100px 400px;
+}
+
+.footer-1 .quote{
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.footer-1 .quote-by{
+    font-weight: bold;
+    text-align: right;
+}
+
+.footer-2{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer-2 >.sign-up{
+    background-color:#3882f6;
+    width: 1000px;
+    height: 100px;
+    padding: 50px 100px;
+    border-radius: 15px;
+}
+
+.button-2{
+    border-color: white;
+    color: white;
+    padding: 5px 10px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: bold;
+}
+
+.footer-3{
+    background-color: #1f2937;
+    text-align: center;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    color: #e5e7eb;
+}
+
+
